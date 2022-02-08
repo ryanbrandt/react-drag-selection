@@ -12,7 +12,7 @@ module.exports = {
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
   moduleDirectories: ["node_modules", "<rootDir>/src"],
-  coveragePathIgnorePatterns: ["node_modules", "<rootDir>/src/store"],
+  coveragePathIgnorePatterns: ["node_modules"],
   coverageThreshold: {
     global: {
       branches: 100,

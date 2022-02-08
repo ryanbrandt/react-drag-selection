@@ -15,12 +15,13 @@
     "isolatedModules": true,
     "noEmit": false,
     "jsx": "react-jsx",
+    "types": ["jest"],
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"]
+      "@src/*": ["../src/*"]
     },
     "outDir": "lib"
   },
   "include": ["*/**/*.ts", "*/**/*.tsx"],
-  "exclude": ["examples/", "__tests__/"]
+  "exclude": ["examples/"]
 }
